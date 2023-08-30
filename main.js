@@ -4,6 +4,8 @@ let sec = document.getElementById("sec");
 
 setInterval(()=>{
     let currentTime = new Date();
+     
+console.log(currentTime);
 
     hrs.innerHTML = (currentTime.getHours()<10?"0":'') + currentTime.getHours();
     min.innerHTML = (currentTime.getMinutes()<10?"0":'') + currentTime.getMinutes();
